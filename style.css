@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.editor {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.editor textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+.output {
+  width: 50%;
+  margin: 20px auto;
+}
+
+#output-iframe {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #ccc;
+}
